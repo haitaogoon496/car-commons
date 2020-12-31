@@ -1,0 +1,14 @@
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/dto/req/TextDingRobotReq.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/dto/req/LinkDingRobotReq.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/dto/builder/MarkdownDingRobotReqBuilder.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/dto/resp/DingBaseRobotResp.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/client/DingRobotClient.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/client/DingRobotService.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/dto/req/BaseDingRobotReq.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/dto/req/ActionCardRobotReq.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/client/DingRobotClientFactory.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/auth/DingAuth.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/dto/req/MarkdownDingRobotReq.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/dto/resp/DingBaseResp.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/dto/req/BtnInfoRobotReq.java
+/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/src/main/java/com/mljr/ding/dto/DingAt.java

@@ -1,0 +1,291 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.mljr.commons</groupId>
+  <artifactId>car-commons</artifactId>
+  <version>2.2.11-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>car-commons</name>
+
+  <modules>
+    <module>car-commons-util</module>
+    <module>car-commons-component</module>
+    <module>car-commons-model</module>
+    <module>car-commons-cache</module>
+    <module>car-commons-aop</module>
+    <module>car-commons-ding</module>
+    <module>car-commons-base</module>
+    <module>car-commons-file</module>
+    <module>car-commons-aviator</module>
+    <module>car-commons-all</module>
+    <module>car-commons-position</module>
+    <module>car-commons-net</module>
+  </modules>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <jdk.version>1.8</jdk.version>
+    <encoding.version>UTF-8</encoding.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <fastjson.version>1.2.29</fastjson.version>
+    <spring.version>4.0.9.RELEASE</spring.version>
+    <spring-boot-starter-aop.version>1.5.7.RELEASE</spring-boot-starter-aop.version>
+    <lyqc-base>1.5.0-SNAPSHOT</lyqc-base>
+
+    <springfox.version>2.7.0</springfox.version>
+    <swagger.version>1.5.13</swagger.version>
+    <oval.version>1.90</oval.version>
+    <aviator.version>3.0.0</aviator.version>
+    <aspectjweaver.version>1.8.13</aspectjweaver.version>
+
+    <!-- apache -->
+    <apache.commons-beanutils>1.9.3</apache.commons-beanutils>
+    <apache.httpclient.version>4.5.3</apache.httpclient.version>
+
+    <car-commons-base>2.2.11-SNAPSHOT</car-commons-base>
+    <car-commons-model>2.2.10-SNAPSHOT</car-commons-model>
+    <car-commons-util>2.2.12-SNAPSHOT</car-commons-util>
+    <car-commons-aop>2.2.11-SNAPSHOT</car-commons-aop>
+    <car-commons-cache>2.2.12-SNAPSHOT</car-commons-cache>
+    <car-commons-component>2.2.12-SNAPSHOT</car-commons-component>
+    <car-commons-ding>2.2.10-SNAPSHOT</car-commons-ding>
+    <car-commons-file>2.2.11-SNAPSHOT</car-commons-file>
+    <car-commons-net>2.2.12-SNAPSHOT</car-commons-net>
+    <car-commons-position>2.2.10-SNAPSHOT</car-commons-position>
+    <car-commons-aviator>2.2.10-SNAPSHOT</car-commons-aviator>
+
+  </properties>
+
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.mljr.commons</groupId>
+        <artifactId>car-commons-base</artifactId>
+        <version>${car-commons-base}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mljr.commons</groupId>
+        <artifactId>car-commons-model</artifactId>
+        <version>${car-commons-model}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mljr.commons</groupId>
+        <artifactId>car-commons-util</artifactId>
+        <version>${car-commons-util}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mljr.commons</groupId>
+        <artifactId>car-commons-aop</artifactId>
+        <version>${car-commons-aop}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mljr.commons</groupId>
+        <artifactId>car-commons-cache</artifactId>
+        <version>${car-commons-cache}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mljr.commons</groupId>
+        <artifactId>car-commons-component</artifactId>
+        <version>${car-commons-component}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mljr.commons</groupId>
+        <artifactId>car-commons-ding</artifactId>
+        <version>${car-commons-ding}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mljr.commons</groupId>
+        <artifactId>car-commons-file</artifactId>
+        <version>${car-commons-file}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mljr.commons</groupId>
+        <artifactId>car-commons-net</artifactId>
+        <version>${car-commons-net}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mljr.commons</groupId>
+        <artifactId>car-commons-position</artifactId>
+        <version>${car-commons-position}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mljr.commons</groupId>
+        <artifactId>car-commons-aviator</artifactId>
+        <version>${car-commons-aviator}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>com.lyqc.base</groupId>
+      <artifactId>lyqc-base</artifactId>
+      <version>${lyqc-base}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>log4j-over-slf4j</artifactId>
+      <version>1.7.7</version>
+    </dependency>
+
+    <!-- 影像件公共服务 -->
+    <!--<dependency>
+      <groupId>com.mljr.sdk</groupId>
+      <artifactId>sdk-carrier</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>-->
+
+    <dependency>
+      <groupId>io.springfox</groupId>
+      <artifactId>springfox-swagger2</artifactId>
+      <version>${springfox.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.springfox</groupId>
+      <artifactId>springfox-swagger-ui</artifactId>
+      <version>${springfox.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.swagger</groupId>
+      <artifactId>swagger-annotations</artifactId>
+      <version>${swagger.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.9</version>
+    </dependency>
+
+    <!-- servlet -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>3.0-alpha-1</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- json -->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>${fastjson.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>jcl-over-slf4j</artifactId>
+      <version>1.7.12</version>
+    </dependency>
+
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.1.3</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>${apache.httpclient.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.4</version>
+    </dependency>
+
+    <!-- 表达式解析引擎 -->
+    <dependency>
+      <groupId>com.googlecode.aviator</groupId>
+      <artifactId>aviator</artifactId>
+      <version>${aviator.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+      <version>${apache.commons-beanutils}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>3.17</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>${aspectjweaver.version}</version>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <finalName>${project.artifactId}</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>${jdk.version}</source>
+          <target>${jdk.version}</target>
+          <encoding>${encoding.version}</encoding>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.4.2</version>
+        <configuration>
+          <testFailureIgnore>true</testFailureIgnore>
+          <skipTests>false</skipTests>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.5</version>
+      </plugin>
+    </plugins>
+  </build>
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <name>Youjie Internal Repository</name>
+      <url>http://maven.youjie.com/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>Youjie Internal Repository</name>
+      <url>http://maven.youjie.com/content/repositories/snapshots/</url>
+      <uniqueVersion>false</uniqueVersion>
+    </snapshotRepository>
+  </distributionManagement>
+</project>

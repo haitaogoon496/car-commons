@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>car-commons</artifactId>
+        <groupId>com.mljr.commons</groupId>
+        <version>2.2.11-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <version>2.2.12-SNAPSHOT</version>
+    <artifactId>car-commons-component</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.mljr.commons</groupId>
+            <artifactId>car-commons-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mljr.commons</groupId>
+            <artifactId>car-commons-util</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mljr.commons</groupId>
+            <artifactId>car-commons-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mljr.commons</groupId>
+            <artifactId>car-commons-cache</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mljr.commons</groupId>
+            <artifactId>car-commons-file</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mljr.commons</groupId>
+            <artifactId>car-commons-ding</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.4.6</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Youjie Internal Repository</name>
+            <url>http://maven.youjie.com/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Youjie Internal Repository</name>
+            <url>http://maven.youjie.com/content/repositories/snapshots/</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+</project>

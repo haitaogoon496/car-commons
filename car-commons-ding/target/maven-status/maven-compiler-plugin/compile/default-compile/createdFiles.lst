@@ -1,0 +1,16 @@
+com/mljr/ding/dto/req/ActionCardRobotReq$ActionCardRobotReqBuilder.class
+com/mljr/ding/dto/req/BaseDingRobotReq.class
+com/mljr/ding/client/DingRobotClient.class
+com/mljr/ding/dto/builder/MarkdownDingRobotReqBuilder.class
+com/mljr/ding/dto/req/MarkdownDingRobotReq.class
+com/mljr/ding/dto/resp/DingBaseRobotResp.class
+com/mljr/ding/dto/req/ActionCardRobotReq.class
+com/mljr/ding/dto/req/BtnInfoRobotReq$BtnInfoRobotReqBuilder.class
+com/mljr/ding/client/DingRobotService.class
+com/mljr/ding/dto/DingAt.class
+com/mljr/ding/client/DingRobotClientFactory.class
+com/mljr/ding/dto/req/BtnInfoRobotReq.class
+com/mljr/ding/dto/req/LinkDingRobotReq.class
+com/mljr/ding/dto/resp/DingBaseResp.class
+com/mljr/ding/dto/req/TextDingRobotReq.class
+com/mljr/ding/auth/DingAuth.class

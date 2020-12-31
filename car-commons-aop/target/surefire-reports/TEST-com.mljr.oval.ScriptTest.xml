@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.mljr.oval.ScriptTest" time="0.528" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/Users/liht/.m2/repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="env.XPC_SERVICE_NAME" value="com.jetbrains.intellij.2824"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/classes"/>
+    <property name="env.TMPDIR" value="/var/folders/t3/2hwrqtg51dgfgsh0z_3yqs9r0000gn/T/"/>
+    <property name="env.PWD" value="/Users/liht/Downloads/git/mygit/car-commons/car-commons"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="idea.version2019.3.5" value="true"/>
+    <property name="user.name" value="liht"/>
+    <property name="maven.build.version" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)"/>
+    <property name="env.USER" value="liht"/>
+    <property name="env.SHELL" value="/bin/zsh"/>
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x19:0x34"/>
+    <property name="env.PATH" value="/usr/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/Users/liht/Downloads/apache-maven-3.6.3/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:.:."/>
+    <property name="user.language" value="zh"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib"/>
+    <property name="classworlds.conf" value="/Users/liht/Downloads/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="env.XPC_FLAGS" value="0x0"/>
+    <property name="env.LC_CTYPE" value="zh_CN.UTF-8"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env.HOMEBREW_BOTTLE_DOMAIN" value="https://mirrors.ustc.edu.cn/homebrew-bottles"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/liht/Downloads/apache-maven-3.6.3/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="CN"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="env.LOGNAME" value="liht"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="env.JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/liht"/>
+    <property name="env.VERSIONER_PYTHON_VERSION" value="2.7"/>
+    <property name="env.OLDPWD" value="/Applications/IntelliJ IDEA.app/Contents/bin"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="env.CLASSPATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/tools.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/lib/dt.jar:."/>
+    <property name="env.M2_HOME" value="/Users/liht/Downloads/apache-maven-3.6.3"/>
+    <property name="java.library.path" value="/Users/liht/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.home" value="/Users/liht/Downloads/apache-maven-3.6.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.5 -s /Users/liht/Downloads/apache-maven-3.6.3/conf/settings.xml install"/>
+    <property name="java.class.path" value="/Users/liht/Downloads/apache-maven-3.6.3/boot/plexus-classworlds.license:/Users/liht/Downloads/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="maven.version" value="3.6.3"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="env.HOME" value="/Users/liht"/>
+    <property name="surefire.test.class.path" value="/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-aop/target/test-classes:/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-aop/target/classes:/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-model/target/car-commons-model.jar:/Users/liht/.m2/repository/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar:/Users/liht/.m2/repository/net/sf/oval/oval/1.90/oval-1.90.jar:/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-util/target/car-commons-util.jar:/Users/liht/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/liht/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-cache/target/car-commons-cache.jar:/Users/liht/.m2/repository/org/springframework/boot/spring-boot-starter-data-redis/1.5.7.RELEASE/spring-boot-starter-data-redis-1.5.7.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.7.RELEASE/spring-boot-starter-1.5.7.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/boot/spring-boot/1.5.7.RELEASE/spring-boot-1.5.7.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.7.RELEASE/spring-boot-autoconfigure-1.5.7.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.7.RELEASE/spring-boot-starter-logging-1.5.7.RELEASE.jar:/Users/liht/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/Users/liht/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/liht/.m2/repository/org/springframework/data/spring-data-redis/1.8.7.RELEASE/spring-data-redis-1.8.7.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/data/spring-data-keyvalue/1.2.7.RELEASE/spring-data-keyvalue-1.2.7.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/data/spring-data-commons/1.13.7.RELEASE/spring-data-commons-1.13.7.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/spring-tx/4.3.11.RELEASE/spring-tx-4.3.11.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/spring-oxm/4.3.11.RELEASE/spring-oxm-4.3.11.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/spring-context-support/4.3.11.RELEASE/spring-context-support-4.3.11.RELEASE.jar:/Users/liht/.m2/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar:/Users/liht/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar:/Users/liht/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.10/jackson-databind-2.8.10.jar:/Users/liht/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.10/jackson-core-2.8.10.jar:/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-ding/target/car-commons-ding.jar:/Users/liht/.m2/repository/com/lyqc/base/lyqc-base/1.5.0-SNAPSHOT/lyqc-base-1.5.0-SNAPSHOT.jar:/Users/liht/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/Users/liht/.m2/repository/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.jar:/Users/liht/.m2/repository/javax/el/el-api/2.2/el-api-2.2.jar:/Users/liht/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.0.Final/hibernate-validator-6.0.0.Final.jar:/Users/liht/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/Users/liht/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/Users/liht/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/liht/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar:/Users/liht/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/Users/liht/.m2/repository/io/springfox/springfox-swagger2/2.7.0/springfox-swagger2-2.7.0.jar:/Users/liht/.m2/repository/io/swagger/swagger-models/1.5.13/swagger-models-1.5.13.jar:/Users/liht/.m2/repository/io/springfox/springfox-spi/2.7.0/springfox-spi-2.7.0.jar:/Users/liht/.m2/repository/io/springfox/springfox-core/2.7.0/springfox-core-2.7.0.jar:/Users/liht/.m2/repository/net/bytebuddy/byte-buddy/1.6.14/byte-buddy-1.6.14.jar:/Users/liht/.m2/repository/io/springfox/springfox-schema/2.7.0/springfox-schema-2.7.0.jar:/Users/liht/.m2/repository/io/springfox/springfox-swagger-common/2.7.0/springfox-swagger-common-2.7.0.jar:/Users/liht/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar:/Users/liht/.m2/repository/org/reflections/reflections/0.9.11/reflections-0.9.11.jar:/Users/liht/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/Users/liht/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/Users/liht/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar:/Users/liht/.m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar:/Users/liht/.m2/repository/org/mapstruct/mapstruct/1.1.0.Final/mapstruct-1.1.0.Final.jar:/Users/liht/.m2/repository/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar:/Users/liht/.m2/repository/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13.jar:/Users/liht/.m2/repository/junit/junit/4.9/junit-4.9.jar:/Users/liht/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/liht/.m2/repository/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.jar:/Users/liht/.m2/repository/com/alibaba/fastjson/1.2.29/fastjson-1.2.29.jar:/Users/liht/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar:/Users/liht/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar:/Users/liht/.m2/repository/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar:/Users/liht/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/liht/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/liht/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/liht/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/liht/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/liht/.m2/repository/com/googlecode/aviator/aviator/3.0.0/aviator-3.0.0.jar:/Users/liht/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/Users/liht/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/liht/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/liht/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/liht/.m2/repository/org/springframework/spring-context/4.0.9.RELEASE/spring-context-4.0.9.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/spring-aop/4.0.9.RELEASE/spring-aop-4.0.9.RELEASE.jar:/Users/liht/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/liht/.m2/repository/org/springframework/spring-beans/4.0.9.RELEASE/spring-beans-4.0.9.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/spring-core/4.0.9.RELEASE/spring-core-4.0.9.RELEASE.jar:/Users/liht/.m2/repository/org/springframework/spring-expression/4.0.9.RELEASE/spring-expression-4.0.9.RELEASE.jar:/Users/liht/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar:"/>
+    <property name="java.io.tmpdir" value="/var/folders/t3/2hwrqtg51dgfgsh0z_3yqs9r0000gn/T/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/liht/Downloads/git/mygit/car-commons/car-commons"/>
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.mU6S9iYezC/Listeners"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/liht/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="user.dir" value="/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-aop"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="basedir" value="/Users/liht/Downloads/git/mygit/car-commons/car-commons/car-commons-aop"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="env.JAVA_MAIN_CLASS_49097" value="org.codehaus.classworlds.Launcher"/>
+  </properties>
+  <testcase classname="com.mljr.oval.ScriptTest" name="script" time="0.504"/>
+</testsuite>

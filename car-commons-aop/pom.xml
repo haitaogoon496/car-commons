@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>car-commons</artifactId>
+        <groupId>com.mljr.commons</groupId>
+        <version>2.2.11-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <version>2.2.11-SNAPSHOT</version>
+    <artifactId>car-commons-aop</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.mljr.commons</groupId>
+            <artifactId>car-commons-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mljr.commons</groupId>
+            <artifactId>car-commons-util</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mljr.commons</groupId>
+            <artifactId>car-commons-cache</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mljr.commons</groupId>
+            <artifactId>car-commons-ding</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

@@ -1,0 +1,2 @@
+interception/MljrClientHttpRequestInterceptor.class
+com/mljr/net/http/config/RestTemplateWithPoolConfigure.class

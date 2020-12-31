@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "props":[
+      "rateLevel",
+      "gpsLevel",
+      "isLcv",
+      "isOld",
+      "isPreInterest",
+      "productName",
+      "aLoanPeriod",
+      "flowSeq",
+      "productCode",
+      "companyCode",
+      "dealerCode",
+      "companyLicense",
+      "gpsCount",
+      "carAge",
+      "pAge",
+      "aLoanRate",
+      "lifeInsuranceRate",
+      "aComRate",
+      "aInitScale",
+      "salePrice",
+      "aLoanAmount",
+      "accountFee",
+      "gpsFee",
+      "aYanbaoFee",
+      "aCarloanAmount"
+    ],
+    "classify": {
+      "0": "通用",
+      "1": "前置",
+      "2": "后置"
+    },
+    "belong": {
+      "appInfo": "车贷申请信息",
+      "carInfo": "车辆申请信息",
+      "appInfoFee": "贷款费用信息"
+    }
+  },
+  "data": [{
+    "code": "rateLevel",
+    "name": "利率档位",
+    "desc": "",
+    "type": "string",
+    "classify": "1",
+    "belong": "appInfo"
+  },
+    {
+      "code": "gpsLevel",
+      "name": "gps档位",
+      "desc": "",
+      "type": "string",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "isLcv",
+      "name": "车类",
+      "desc": "",
+      "type": "string",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "isOld",
+      "name": "是否二手车",
+      "desc": "",
+      "type": "string",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "isPreInterest",
+      "name": "是否前置总利息",
+      "desc": "",
+      "type": "string",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "productName",
+      "name": "产品名称",
+      "desc": "",
+      "type": "string",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "aLoanPeriod",
+      "name": "申请贷款期限",
+      "desc": "",
+      "type": "integer",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "flowSeq",
+      "name": "审批流程",
+      "desc": "",
+      "type": "integer",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "productCode",
+      "name": "产品code",
+      "desc": "",
+      "type": "integer",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "companyCode",
+      "name": "经销商编码",
+      "desc": "",
+      "type": "integer",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "dealerCode",
+      "name": "门店编码",
+      "desc": "",
+      "type": "integer",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "companyLicense",
+      "name": "是否公牌",
+      "desc": "",
+      "type": "integer",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "gpsCount",
+      "name": "GPS安装数量",
+      "desc": "",
+      "type": "integer",
+      "classify": "1",
+      "belong": "carInfo"
+    },
+    {
+      "code": "carAge",
+      "name": "车龄(月)",
+      "desc": "",
+      "type": "integer",
+      "classify": "1",
+      "belong": "carInfo"
+    },
+    {
+      "code": "pAge",
+      "name": "申请人年龄",
+      "desc": "",
+      "type": "integer",
+      "classify": "1",
+      "belong": ""
+    },
+    {
+      "code": "aLoanRate",
+      "name": "申请贷款利率",
+      "desc": "",
+      "type": "float",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "lifeInsuranceRate",
+      "name": "人身险费率",
+      "desc": "",
+      "type": "float",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "aComRate",
+      "name": "平台费利率",
+      "desc": "",
+      "type": "float",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "aInitScale",
+      "name": "申请首付款比例",
+      "desc": "",
+      "type": "float",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "salePrice",
+      "name": "实际销售价",
+      "desc": "",
+      "type": "float",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "aLoanAmount",
+      "name": "申请贷款总金额",
+      "desc": "",
+      "type": "float",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "accountFee",
+      "name": "申请账户管理费",
+      "desc": "",
+      "type": "float",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "gpsFee",
+      "name": "申请GPS费用",
+      "desc": "",
+      "type": "float",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "aYanbaoFee",
+      "name": "申请第二年保险费",
+      "desc": "",
+      "type": "float",
+      "classify": "1",
+      "belong": "appInfo"
+    },
+    {
+      "code": "aCarloanAmount",
+      "name": "申请车辆贷款金额",
+      "desc": "",
+      "type": "float",
+      "classify": "1",
+      "belong": "appInfo"
+    }]
+}

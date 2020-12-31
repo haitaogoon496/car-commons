@@ -1,0 +1,43 @@
+# http://docs.gitlab.com/ce/ci/yaml/README.html#gitlab-ci-yml
+
+before_script:
+  - date
+  - ip -4 addr
+  - pwd
+  - env
+
+after_script:
+
+stages:
+  - test
+  - deploy
+
+单元测试:
+  stage: test
+  script:
+    - mvn clean test
+  when: always
+
+Maven发布:
+  stage: deploy
+  script:
+     #- mvn deploy:deploy-file -Dfile=pom.xml -DpomFile=pom.xml -Dpackaging=pom -Durl=http://maven.youjie.com/content/repositories/snapshots/ -DrepositoryId=snapshots
+     - mvn clean install deploy -Dmaven.test.skip=true
+  tags:
+    - lyqc
+  only:
+    - master
+  when: on_success
+  allow_failure: false
+
+Maven发布(R):
+  stage: deploy
+  script:
+     #- mvn deploy:deploy-file -Dfile=pom.xml -DpomFile=pom.xml -Dpackaging=pom -Durl=http://maven.youjie.com/content/repositories/releases/ -DrepositoryId=releases
+     - mvn clean install deploy -Dmaven.test.skip=true
+  only:
+    - /^release/.*$/
+    - /^release-.*$/
+    - /^v-.*$/
+  when: on_success
+  allow_failure: false
